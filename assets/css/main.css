@@ -218,7 +218,7 @@ main{
 
 .logotype__lineone {
     margin-left: 30px;
-    margin-bottom: 170px;
+    margin-bottom: 188px;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -319,7 +319,7 @@ main{
 
 .branding__linethree {
     justify-self: right;
-    margin-right: 28px;
+    margin-right: 25px;
     grid-column-start: 12;
     grid-column-end: 13;
     grid-row-start: 4;
@@ -451,8 +451,7 @@ main{
 }
 
 
-/* Portfolio -------------------------------------------------> */
-
+/* Portfolio -----------------------------------------------> */
 .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -477,4 +476,131 @@ main{
 }
 
 /* PortfolioList */
+.portfolio__list {
+    margin-top: 100px;
+    background-color: #828282;
+    height: 578px;
+}
 
+/* Contacts ------------------------------------------------> */
+.contacts {
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1170px;
+    height: 500px;
+    align-items: center;
+}
+
+.contacts h1 {
+    font: 64px 'Source Sans Pro', sans-serif;
+    color: #003632;
+    justify-self: center;
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.contacts__instagram {
+    font: 16px 'Source Sans Pro', sans-serif;
+    color: #000;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: center;
+    justify-self: center;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: inline-block;
+    transition: transform .1s;
+}
+
+.contacts__instagram:hover {
+    transform: scale(1.2);
+}
+
+.contacts__whatsapp {
+    font: 16px 'Source Sans Pro', sans-serif;
+    color: #000;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: center;
+    justify-self: center;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: inline-block;
+    transition: transform .1s;
+}
+
+.contacts__whatsapp:hover {
+    transform: scale(1.2);
+}
+
+.contacts__behance {
+    font: 16px 'Source Sans Pro', sans-serif;
+    color: #000;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: center;
+    justify-self: center;
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: inline-block;
+    transition: transform .1s;
+}
+
+.contacts__behance:hover {
+    transform: scale(1.2);
+}
+
+/* Footer --------------------------------------------------> */
+footer {
+    background-color: #1e1e1e;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1170px;
+    height: 100px;
+    align-items: center;
+}
+
+.footer h2 {
+    font: 14px 'Source Sans Pro', sans-serif;
+    color: #464646;
+    letter-spacing: 1px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.footer h3 {
+    font: 14px 'Source Sans Pro', sans-serif;
+    color: #464646;
+    letter-spacing: 1px;
+    grid-column-start: 13;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.footer a {
+    font: 16px 'Source Sans Pro', sans-serif;
+    color: #c0c0c0;
+    text-decoration: none;
+}
