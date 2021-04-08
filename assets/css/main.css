@@ -190,7 +190,7 @@ main{
     margin-top: 150px;
     margin-bottom: 150px;
     width: 1170px;
-    height: 2220px;
+    height: 1800px;
     align-items: center;
 }
 
@@ -200,9 +200,11 @@ main{
     grid-template-columns: repeat(12, 70px);
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 30px;
+    grid-row-start: 1;
+    grid-row-end: 2;
     margin: 0 auto;
     width: 1170px;
-    height: 750px;
+    height: 600px;
     align-items: center;
 }
 
@@ -215,7 +217,8 @@ main{
 }
 
 .logotype__lineone {
-    margin-bottom: 160px;
+    margin-left: 30px;
+    margin-bottom: 170px;
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -236,11 +239,11 @@ main{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 6;
 }
 
 .logotype__01 {
-    margin-top: 5px;
+    margin-top: 40px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
@@ -265,6 +268,7 @@ main{
     font: 14px 'Source Sans Pro', sans-serif;
     color: #000;
     letter-spacing: 1px;
+    line-height: 20px;
 }
 
 .logotype__text h3 {
@@ -275,6 +279,177 @@ main{
 }
 
 /* Branding */
+.branding {
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0 auto;
+    width: 1170px;
+    height: 600px;
+    align-items: center;
+}
+
+.branding__photo {
+    justify-self: left;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.branding__lineone {
+    margin-bottom: 188px;
+    grid-column-start: 11;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.branding__linetwo {
+    margin-bottom: 120px;
+    margin-left: 15px;
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.branding__linethree {
+    justify-self: right;
+    margin-right: 28px;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.branding__01 {
+    justify-self: right;
+    margin-top: 35px;
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.branding__text {
+    display: grid;
+    row-gap: 15px;
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.branding__text h2 {
+    justify-self: right;
+    font: 36px 'Source Sans Pro', sans-serif;
+    color: #000;
+}
+
+.branding__text p {
+    justify-self: right;
+    font: 14px 'Source Sans Pro', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.branding__text h3 {
+    justify-self: right;
+    font: 16px 'Source Sans Pro', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+/* Polygraphy */
+.polygraphy {
+    display: grid;
+    grid-template-columns: repeat(12, 70px);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0 auto;
+    width: 1170px;
+    height: 600px;
+    align-items: center;
+}
+
+.polygraphy__photo {
+    justify-self: right;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.polygraphy__lineone {
+    margin-left: 30px;
+    margin-bottom: 188px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.polygraphy__linetwo {
+    margin-bottom: 120px;
+    margin-left: 15px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.polygraphy__linethree {
+    margin-left: 18px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.polygraphy__01 {
+    margin-top: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.polygraphy__text {
+    display: grid;
+    row-gap: 15px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.polygraphy__text h2 {
+    font: 36px 'Source Sans Pro', sans-serif;
+    color: #000;
+}
+
+.polygraphy__text p {
+    font: 14px 'Source Sans Pro', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.polygraphy__text h3 {
+    font: 16px 'Source Sans Pro', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
 
 /* Portfolio -------------------------------------------------> */
 
@@ -295,7 +470,7 @@ main{
     color: #003632;
     text-align: right;
     margin-right: 30px;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
