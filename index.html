@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>langstons.project</title>
+
+  <!-- Link Styles -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="site-container">
+      <!--===== Header =====-->
+    <header class="header">
+  <div class="header-container">
+    <a href="index.html" class="header__logo">
+      <span class="icon-logo"></span>
+    </a>
+    <button class="burger nav-btn-js" type="button">
+      <span class="burger__line"></span>
+    </button>
+    <nav class="nav nav-js" data-active="false">
+      <a href="index.html" class="nav__link">Главная</a>
+      <a href="about.html" class="nav__link">Обо мне</a>
+      <button class="btn-reset dropdown__btn">Портфолио <span class="icon-dropdown-arrow"></span></button>
+      <div class="dropdown-list" style="display: none;">
+        <a href="identity.html" class="dropdown__link">Логотип и фирменный стиль</a>
+        <a href="polygraphy.html" class="dropdown__link">Полиграфия</a>
+        <a href="posters.html" class="dropdown__link">Постеры</a>
+        <a href="social-networks.html" class="dropdown__link">Оформление соц. сетей</a>
+      </div>
+      <a href="contacts.html" class="nav__link">Контакты</a>
+    </nav>
+  </div>
+</header>
+    <main class="main">
+      <!--===== Home Hero =====-->
+      <section class="home-hero">
+  <div class="home-hero-container">
+    <div class="home-hero-text">
+      <h1 class="home-hero__title">langstons</h1>
+      <p class="home-hero__subtitle">project</p>
+      <p class="home-hero__description">Простота и функциональная форма для Вашего бренда</p>
+    </div>
+  </div>
+</section>
+      <!--===== Home Blocks =====-->
+      <section class="home-blocks">
+  <div class="home-blocks-container">
+    <a href="about.html" class="home-blocks-item home-blocks-light">
+      <div class="arrow__link">Обо мне <span class="icon-right-arrow"></span></div>
+    </a>
+    <a href="contacts.html" class="home-blocks-item home-blocks-dark">
+      <div class="arrow__link">Cвязаться
+        <br>со мной <span class="icon-right-arrow"></span></div>
+    </a>
+  </div>
+</section>
+      <!--===== Home Preview =====-->
+      <section class="home-preview">
+  <div class="home-preview-container">
+    <div class="swiper-container previewSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="posters.html" class="home-preview-slide">
+            <div class="home-preview-slide__image">
+              <img src="img/poster-preview.png" alt="" class="preview__image">
+            </div>
+            <div class="arrow__link">Постеры <span class="icon-right-arrow"></span></div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="identity.html" class="home-preview-slide">
+            <div class="home-preview-slide__image">
+              <img src="img/logo-preview.png" alt="" class="preview__image">
+            </div>
+            <div class="arrow__link">Логотип и фирменный стиль <span class="icon-right-arrow"></span></div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="social-networks.html" class="home-preview-slide">
+            <div class="home-preview-slide__image">
+              <img src="img/instagram-preview.png" alt="" class="preview__image">
+            </div>
+            <div class="arrow__link">Оформление соц. сетей <span class="icon-right-arrow"></span></div>
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-next preview-button-next"></div>
+      <div class="swiper-button-prev preview-button-prev"></div>
+      <div class="swiper-pagination preview-pagination"></div>
+    </div>
+  </div>
+</section>
+    </main>
+    <!--===== Footer =====-->
+    <footer class="footer">
+  <div class="footer-container">
+    <p class="footer__copyright">Copyright © 2021 langstons.project</p>
+  </div>
+</footer>
+  </div>
+  <!-- Link Scripts -->
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
